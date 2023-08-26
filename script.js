@@ -22,7 +22,7 @@ function imc() {
         //--------------------------------------------------------
     } else if (imc_calc <= 24.9) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
-        imc2_res.innerHTML = `<b>Clasificação:</b> Massa corporal`
+        imc2_res.innerHTML = `<b>Clasificação:</b> Massa corporal Ideal`
         imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Normal`
         //------------------------------------------------------
     } else if (imc_calc < 29.9) {
