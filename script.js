@@ -23,27 +23,27 @@ function imc() {
     } else if (imc_calc <= 24.9) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
         imc2_res.innerHTML = `<b>Clasificação:</b> Massa corporal`
-        imc_risco.innerHTML = `<b>Riscos Relacionado:</b>Normal`
+        imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Normal`
         //------------------------------------------------------
     } else if (imc_calc < 29.9) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
         imc2_res.innerHTML = `<b>Clasificação:</b> Sobrepeso`
-        imc_risco.innerHTML = `<b>Riscos Relacionado:</b>Elevado`
+        imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Elevado`
         //---------------------------------------------------------
     } else if (imc_calc <= 34.9) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
         imc2_res.innerHTML = `<b>Clasificação:</b> Obesidade Leve`
-        imc_risco.innerHTML = `<b>Riscos Relacionado:</b>Alto`
+        imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Alto`
         //-------------------------------------------------------
     } else if (imc_calc <= 39.9) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
         imc2_res.innerHTML = `<b>Clasificação:</b> Obesidade Média`
-        imc_risco.innerHTML = `<b>Riscos Relacionado:</b>Muito Alto`
+        imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Muito Alto`
         //-------------------------------------------------------
     } else if (imc_calc >= 40.0) {
         imc_res.innerHTML = `Olá <b>${nome}</b>! O seu IMC é ${imc_calc.toFixed(2)}`
         imc2_res.innerHTML = `<b>Clasificação:</b> Obesidade Mórbida`
-        imc_risco.innerHTML = `<b>Riscos Relacionado:</b>Eminente`
+        imc_risco.innerHTML = `<b>Riscos Relacionado:</b> Eminente`
     }
 }
 
